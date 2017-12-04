@@ -20,11 +20,11 @@ Más abajo, los links de referencia, irán creciendo con el tiempo.
 
 [5] https://github.com/ethereum/go-ethereum/wiki/Installation-Instructions-for-Ubuntu
 
-[6]
+[6] https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+ 
+[7] https://www.ethereum.org/cli
 
-[7]
-
-[8]
+[8] https://github.com/ethereum/wiki/wiki/Ethereum-Development-Tutorial (Ejemplo EVM)
 
 [9]
 

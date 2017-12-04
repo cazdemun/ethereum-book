@@ -18,7 +18,7 @@ Además viene con un IDE, cosa que suele faltarle a los servicios de máquinas v
 
 ## Arbol de directorios
 
-<pre>
+```
 |
 ├ scripts
 |   ├ aliases
@@ -28,7 +28,7 @@ Además viene con un IDE, cosa que suele faltarle a los servicios de máquinas v
 |   ├ solidity
 |
 ├
-</pre>
+```
 
 ## Carpetas principales
 
@@ -40,13 +40,18 @@ Es simplemente una palabra que encontré conveniente de usar.
 Aquí irán los resúmenes de los capítulos, o mejor dicho cómo los entendí. 
 Hay dos formas en las que tomo nota, una super personalizada donde trato de hacer bromas y soy altamente sarcástico.
 Es más que nada para ayudarme a entender todo en mis propios términos. 
-Suelo escribir de esta forma cuando recién estoy aprendiendo.
+Suelo escribir de esta forma cuando recién estoy aprendiendo un tema.
 
 La otra es la versión 'limpia', que va más en el estilo de esta introducción. Explicaciones sencillas y directas.
 La idea es que, al terminar, todo esté escrito de esta forma.
 El otro estilo es muy verboso y hasta yo me confundo y/o aburro de leerlo un tiempo después, aunque es bastante útil al momento de aprender.
 
 Intentaré, por ahora, que las primeras dos secciones sean lo más breves posible.
+
+## matematica
+
+Realmente esta sección es más que nada para satisfacer la curiosidad que tengo con respecto a la criptografía usada en la tecnología Blockchain.
+Con un poco de suerte al terminar las bases de esta sección podré entender y comprender los cambios hechos en Ethereum para que su criptografía sea resistente a ataques cuánticos.
 
 ### scripts
 
@@ -64,7 +69,7 @@ Tal vez esta carpeta vaya mejor en referencias.
 
 Aquí irían los comandos. Tal vez la carpeta de scripts iría dividida por lecciones, explicando qué hace cada una.
 Sería redundante con respecto a lo que se encuentra en las lecciones, pero en las lecciones también hay explicaciones sobre otras cosas.
-La carpeta dentro de referencias podría ser una referencia rápida, separada por temasc cómo cuentas o conexión.
+La carpeta dentro de referencias podría ser una referencia rápida, separada por temas como cuentas o conexión.
 
 #### javascriptapi
 
@@ -77,3 +82,4 @@ Lo mismo que con comandos.
 Aunque haya una documentación oficial (links en README.md), prefiero tener las dudas más frecuentes a la mano.
 Siempre se me ha dificultado hacer documentaciones, me cuesta encontrar el balance entre un libro que explique todos los detalles y un simple cheatsheet.
 Tal vez lo que necesito es lo último, que es lo que trataré de hacer aquí.
+
