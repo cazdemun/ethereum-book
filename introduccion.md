@@ -48,7 +48,7 @@ El otro estilo es muy verboso y hasta yo me confundo y/o aburro de leerlo un tie
 
 Intentaré, por ahora, que las primeras dos secciones sean lo más breves posible.
 
-## matematica
+### matematica
 
 Realmente esta sección es más que nada para satisfacer la curiosidad que tengo con respecto a la criptografía usada en la tecnología Blockchain.
 Con un poco de suerte al terminar las bases de esta sección podré entender y comprender los cambios hechos en Ethereum para que su criptografía sea resistente a ataques cuánticos.

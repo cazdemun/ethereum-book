@@ -20,18 +20,18 @@ Los dos tipos de cuenta poseen una cierta dinámica:
 * Estas cuentas contrato activan automáticamente su código al recibir un mensaje, independientemente de su contenido.
 La razón se verá en la siguiente sección, pero este sistema le da bastante importancia al orden de la información en el mensaje.
 * Las cuentas contratos pueden enviar mensajes a otras cuentas solo si esa funcionalidad está especificada en el código.
-Esto permite, por lo tanto, que múltiples cuentas contrato puedan comunicarse entre sí, aunque hay un límite debido al gas.
+Esto permite, por lo tanto, que múltiples cuentas contrato puedan comunicarse entre sí, aunque hay un límite.
 
 Se puede interpretar, entonces, que las cuentas contratos son programas que se activan al recibir un mensaje.
 El whitepaper de Ethereum prefiere el término 'agentes autónomos'.
 Supongo que es porque la intención final es que estos contratos puedan comunicarse entre sí sin intervención alguna, creando un ecosistema que no necesite de supervisión constante, eso si es programado bien.
 
 El conjunto de todas las cuentas en Ethereum es llamado Estado. 
-Este Estado puede cambiar, y debería, y ese es el propósito de los mensajes.
+Este Estado puede cambiar, y debería, ese es el propósito de los mensajes.
 
 ## Mensajes
 
-No es posible hablar de cuentas sin mencionar a los mensajes, pero en esta sección se intentará profundizar más en la estructura de los mensajes.
+No es posible hablar de cuentas sin mencionar a los mensajes, pero en esta sección se intentará profundizar más en la estructura de uno.
 También llamados transacciones, los mensajes pueden considerarse una función que transforma el último estado registrado en la blockchain.
 
 Por definición de Blockchain (todos los nodos guardan una copia de la estructura de datos), el código de cada contrato es ejecutado en cada máquina de la red.
@@ -57,7 +57,7 @@ He evitado mencionar el gas desde el inicio, y eso es porque quería simplificar
 
 
 El código del contrato está escrito en un lenguaje completo.
-Para los que este término les resulta extraño, un lenguaje completo es un lenguaje de programación normal.
+Para los que este término les resulte extraño, un lenguaje completo es un lenguaje de programación normal.
 La razón de lo que parece ser una redefinición innecesaria es porque Bitcoin posee un lenguaje incompleto, esto es, no permite recursividades.
 Esto impide que se pueda abusar del sistema y mandar instrucciones que nunca terminen.
 
@@ -71,7 +71,7 @@ Es ahí donde entra el concepto de gas, y el por qué el ether es considerado un
 Las computadoras funcionan leyendo código máquina y ejecutándolo en sus circuitos.
 ~~Ahora, si entendí bien, los programas (o clientes) que implementan  la red Ethereum tiene su propio 'código máquina', que es básicamente su lenguaje de programación.~~
 Ahora, si entendí bien, la red Ethereum tiene especificado su propio 'código máquina', que es básicamente su lenguaje de programación.
-Intuyo que se le llama 'virtual machine' porque esta especificación está básicamente simulando un computadora.
+Intuyo que se le llama 'virtual machine' porque esta especificación está básicamente simulando una computadora.
 Incluso tiene implementado un stack, memoria y almacenamiento.
 
 El código máquina de Ethereum, o bytecode, es necesario porque elimina las ambiguedades de los lenguajes de alto nivel, ya que son, en esencia, simples instrucciones como PUSH1 o CALLDATALOAD:
@@ -122,10 +122,7 @@ _Nota: Estas implementaciones son, por razones obvias, no oficiales. Utilizar ba
 ## Posibles tópicos a añadirse en este capítulo:
 
 * Dapps
-
-Wallets y Native Dapps
-
-Web Dapps
-
+* -Wallets y Native Dapps
+* -Web Dapps
 * ¿Metamask?
 * Consenso: Proof of Work vs Proof of Stake
