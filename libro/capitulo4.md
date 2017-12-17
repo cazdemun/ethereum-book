@@ -1,0 +1,3 @@
+# EVM y Solidity
+
+Si ya has programado antes, sabes que aprender un lenguage de programación, sin ser capaz de compilarlo o ejecutar un simple "Hola Mundo", puede ser bastante frustante. Por fortuna, en el caso de Solidity es posible compilar el lenguage de forma relativamente sencilla. Sin embargo, la ejecución de un contrato inteligente en la red es algo bastante más complicado, puesto que, en el mejor de los casos, es necesario levantar una red de prueba.
