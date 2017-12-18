@@ -8,9 +8,9 @@ Una pequeña explicación sobre Blockchain, las tecnologías que la conforman y 
 
 El capítulo anterior generalizaba la idea de Blockchain. En este capítulo se habla sobre Ethereum, sus diferencias con respecto a Bitcoin y su lugar como blockchain pionera en la implementación de los contratos inteligentes. 
 
-## Capítulo 3: Ethereum Client
+## Capítulo 3: Clientes
 
-La implementación de la red Ethereum es el cliente, también conocido como nodo. Aquí se explican los distintos tipos de clientes que hay, pero mayormente se centra en Geth, la implementación de Ethereum escrita en Go. Capítulo altamente técnico y probablemente el más importante, por eso es el que tendrá más dibujitos.
+La implementación de la red Ethereum es el cliente, también conocido como nodo. Aquí se explican los distintos tipos de clientes que hay, pero mayormente se centra en Geth, la implementación de Ethereum escrita en Go. Capítulo altamente técnico y probablemente el más importante, por eso es el que tiene más dibujitos.
 
 ## ¿Wallets?
 
