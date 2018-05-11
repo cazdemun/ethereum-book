@@ -14,7 +14,7 @@ Como vimos, no solo con Ethereum, sino con Blockchain en general, una red de reg
 
 La pregunta del millón es... ¿y quién programa todo esto?
 
-Bueno, definitivamente no nosotros. Al programa que implementa todas las especificaciones descritas en el capítulo anterior se le llama __cliente__, y, mientras este programa pueda _hacer todo lo que se supone que debe hacer_, el lenguaje no importa. Es por esto que _existen muchas implementaciones del cliente de Ethereum_, ya sea oficiales o de terceros. El riesgo de las implementaciones de terceros es evidente, por eso en este capítulo solo hablaremos sobre las implementaciones oficiales:
+Bueno, definitivamente no nosotros. Al programa que implementa todas las especificaciones descritas en el capítulo anterior se le llama _cliente_, y, mientras este programa pueda __hacer todo lo que se supone que debe hacer__, el lenguaje no importa. Es por esto que __existen muchas implementaciones del cliente de Ethereum__, ya sea oficiales o de terceros. El riesgo de las implementaciones de terceros es evidente, por eso en este capítulo solo hablaremos sobre las implementaciones oficiales:
 
 * Geth, escrita en Go
 * Eth, escrita en C++
